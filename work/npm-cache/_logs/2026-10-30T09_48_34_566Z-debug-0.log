@@ -1,0 +1,1086 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.19.1
+2 info using node@v24.22.1
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Ranjeet\Documents\Codex\2026-10-30\new-chat\track-app\.npmrc
+5 silly config load:file:C:\Users\Ranjeet\AppData\Roaming\npm\etc\npmrc
+6 verbose title npm install
+7 verbose argv "install" "--no-audit" "--no-fund"
+8 verbose logfile logs-max:10 dir:C:\Users\Ranjeet\Documents\Codex\2026-10-30\new-chat\track-app\work\npm-cache\_logs\2026-10-30T09_48_34_566Z-
+9 verbose logfile C:\Users\Ranjeet\Documents\Codex\2026-10-30\new-chat\track-app\work\npm-cache\_logs\2026-10-30T09_48_34_566Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+12 silly idealTree buildDeps
+13 silly fetch manifest expo@~58.0.21
+14 silly packumentCache full:https://registry.npmjs.org/expo cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/npm 285ms
+16 http fetch GET 200 https://registry.npmjs.org/expo 398ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/expo set size:undefined disposed:false
+18 silly fetch manifest @expo/metro-runtime@*
+19 silly packumentCache full:https://registry.npmjs.org/@expo%2fmetro-runtime cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/@expo%2fmetro-runtime 106ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/@expo%2fmetro-runtime set size:undefined disposed:false
+22 silly fetch manifest react@19.3.0
+23 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/react 796ms (cache miss)
+25 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+26 silly fetch manifest react-dom@*
+27 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+28 http fetch GET 200 https://registry.npmjs.org/react-dom 913ms (cache miss)
+29 silly packumentCache full:https://registry.npmjs.org/react-dom set size:undefined disposed:false
+30 silly fetch manifest react@^19.3.1
+31 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+32 http cache https://registry.npmjs.org/react 22ms (cache hit)
+33 silly packumentCache full:https://registry.npmjs.org/react set size:7097863 disposed:false
+34 silly fetch manifest react-native@0.88.1
+35 silly packumentCache full:https://registry.npmjs.org/react-native cache-miss
+36 http fetch GET 200 https://registry.npmjs.org/react-native 907ms (cache miss)
+37 silly packumentCache full:https://registry.npmjs.org/react-native set size:undefined disposed:false
+38 silly fetch manifest @types/react@~19.3.0
+39 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+40 http fetch GET 200 https://registry.npmjs.org/@types%2freact 285ms (cache miss)
+41 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:undefined disposed:false
+42 silly fetch manifest react-native-web@*
+43 silly packumentCache full:https://registry.npmjs.org/react-native-web cache-miss
+44 http fetch GET 200 https://registry.npmjs.org/react-native-web 140ms (cache miss)
+45 silly packumentCache full:https://registry.npmjs.org/react-native-web set size:undefined disposed:false
+46 silly fetch manifest react-native-webview@*
+47 silly packumentCache full:https://registry.npmjs.org/react-native-webview cache-miss
+48 http fetch GET 200 https://registry.npmjs.org/react-native-webview 172ms (cache miss)
+49 silly packumentCache full:https://registry.npmjs.org/react-native-webview set size:undefined disposed:false
+50 silly fetch manifest expo-status-bar@~58.0.4
+51 silly packumentCache full:https://registry.npmjs.org/expo-status-bar cache-miss
+52 http fetch GET 200 https://registry.npmjs.org/expo-status-bar 71ms (cache miss)
+53 silly packumentCache full:https://registry.npmjs.org/expo-status-bar set size:undefined disposed:false
+54 silly fetch manifest typescript@~6.0.3
+55 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+56 http fetch GET 200 https://registry.npmjs.org/typescript 1201ms (cache miss)
+57 silly packumentCache full:https://registry.npmjs.org/typescript set size:undefined disposed:false
+58 silly placeDep ROOT @types/react@19.3.0 REPLACE for: track-app@1.0.0 want: ~19.3.0
+59 silly placeDep ROOT expo@58.0.21 REPLACE for: track-app@1.0.0 want: ~58.0.21
+60 silly placeDep ROOT expo-status-bar@58.0.4 REPLACE for: track-app@1.0.0 want: ~58.0.4
+61 silly placeDep ROOT react@19.3.0 REPLACE for: track-app@1.0.0 want: 19.3.0
+62 silly placeDep ROOT react-native@0.88.1 REPLACE for: track-app@1.0.0 want: 0.88.1
+63 silly placeDep ROOT typescript@6.0.3 REPLACE for: track-app@1.0.0 want: ~6.0.3
+64 silly fetch manifest csstype@^3.2.2
+65 silly packumentCache full:https://registry.npmjs.org/csstype cache-miss
+66 silly fetch manifest @expo/cli@^58.1.17
+67 silly packumentCache full:https://registry.npmjs.org/@expo%2fcli cache-miss
+68 silly fetch manifest expo-font@~58.0.11
+69 silly packumentCache full:https://registry.npmjs.org/expo-font cache-miss
+70 silly fetch manifest expo-asset@~58.0.19
+71 silly packumentCache full:https://registry.npmjs.org/expo-asset cache-miss
+72 silly fetch manifest @expo/metro@~58.0.0
+73 silly packumentCache full:https://registry.npmjs.org/@expo%2fmetro cache-miss
+74 silly fetch manifest @expo/config@~58.0.9
+75 silly packumentCache full:https://registry.npmjs.org/@expo%2fconfig cache-miss
+76 silly fetch manifest @expo/log-box@^58.0.13
+77 silly packumentCache full:https://registry.npmjs.org/@expo%2flog-box cache-miss
+78 silly fetch manifest pretty-format@^29.7.0
+79 silly packumentCache full:https://registry.npmjs.org/pretty-format cache-miss
+80 silly fetch manifest react-refresh@^0.14.2
+81 silly packumentCache full:https://registry.npmjs.org/react-refresh cache-miss
+82 silly fetch manifest @babel/runtime@^7.20.0
+83 silly packumentCache full:https://registry.npmjs.org/@babel%2fruntime cache-miss
+84 silly fetch manifest @expo/devtools@~58.0.2
+85 silly packumentCache full:https://registry.npmjs.org/@expo%2fdevtools cache-miss
+86 http fetch GET 200 https://registry.npmjs.org/csstype 102ms (cache miss)
+87 silly packumentCache full:https://registry.npmjs.org/csstype set size:undefined disposed:false
+88 silly fetch manifest expo-constants@~58.0.14
+89 silly packumentCache full:https://registry.npmjs.org/expo-constants cache-miss
+90 http fetch GET 200 https://registry.npmjs.org/@expo%2fmetro 422ms (cache miss)
+91 silly packumentCache full:https://registry.npmjs.org/@expo%2fmetro set size:undefined disposed:false
+92 silly fetch manifest expo-keep-awake@~58.0.3
+93 silly packumentCache full:https://registry.npmjs.org/expo-keep-awake cache-miss
+94 http fetch GET 200 https://registry.npmjs.org/@expo%2flog-box 578ms (cache miss)
+95 silly packumentCache full:https://registry.npmjs.org/@expo%2flog-box set size:undefined disposed:false
+96 silly fetch manifest expo-file-system@~58.0.13
+97 silly packumentCache full:https://registry.npmjs.org/expo-file-system cache-miss
+98 http fetch GET 200 https://registry.npmjs.org/@expo%2fdevtools 582ms (cache miss)
+99 silly packumentCache full:https://registry.npmjs.org/@expo%2fdevtools set size:undefined disposed:false
+100 silly fetch manifest expo-modules-cli@~0.4.0
+101 silly packumentCache full:https://registry.npmjs.org/expo-modules-cli cache-miss
+102 http fetch GET 200 https://registry.npmjs.org/expo-font 593ms (cache miss)
+103 silly packumentCache full:https://registry.npmjs.org/expo-font set size:undefined disposed:false
+104 silly fetch manifest @expo/dom-webview@~58.0.2
+105 silly packumentCache full:https://registry.npmjs.org/@expo%2fdom-webview cache-miss
+106 http fetch GET 200 https://registry.npmjs.org/expo-modules-cli 83ms (cache miss)
+107 silly packumentCache full:https://registry.npmjs.org/expo-modules-cli set size:undefined disposed:false
+108 silly fetch manifest @expo/fingerprint@^0.21.7
+109 silly packumentCache full:https://registry.npmjs.org/@expo%2ffingerprint cache-miss
+110 http fetch GET 200 https://registry.npmjs.org/pretty-format 841ms (cache miss)
+111 silly packumentCache full:https://registry.npmjs.org/pretty-format set size:undefined disposed:false
+112 silly fetch manifest babel-preset-expo@~58.0.22
+113 silly packumentCache full:https://registry.npmjs.org/babel-preset-expo cache-miss
+114 http fetch GET 200 https://registry.npmjs.org/@expo%2fdom-webview 273ms (cache miss)
+115 silly packumentCache full:https://registry.npmjs.org/@expo%2fdom-webview set size:undefined disposed:false
+116 silly fetch manifest expo-modules-core@~58.0.28
+117 silly packumentCache full:https://registry.npmjs.org/expo-modules-core cache-miss
+118 http fetch GET 200 https://registry.npmjs.org/expo-constants 803ms (cache miss)
+119 silly packumentCache full:https://registry.npmjs.org/expo-constants set size:undefined disposed:false
+120 silly fetch manifest @expo/metro-config@~58.0.19
+121 silly packumentCache full:https://registry.npmjs.org/@expo%2fmetro-config cache-miss
+122 http fetch GET 200 https://registry.npmjs.org/expo-keep-awake 509ms (cache miss)
+123 silly packumentCache full:https://registry.npmjs.org/expo-keep-awake set size:undefined disposed:false
+124 silly fetch manifest @expo/config-plugins@~58.0.11
+125 silly packumentCache full:https://registry.npmjs.org/@expo%2fconfig-plugins cache-miss
+126 http fetch GET 200 https://registry.npmjs.org/@expo%2fconfig 1208ms (cache miss)
+127 silly packumentCache full:https://registry.npmjs.org/@expo%2fconfig set size:undefined disposed:false
+128 silly fetch manifest @ungap/structured-clone@^1.3.0
+129 silly packumentCache full:https://registry.npmjs.org/@ungap%2fstructured-clone cache-miss
+130 http fetch GET 200 https://registry.npmjs.org/expo-asset 1233ms (cache miss)
+131 silly packumentCache full:https://registry.npmjs.org/expo-asset set size:undefined disposed:false
+132 silly fetch manifest expo-modules-autolinking@~58.0.16
+133 silly packumentCache full:https://registry.npmjs.org/expo-modules-autolinking cache-miss
+134 http fetch GET 200 https://registry.npmjs.org/@expo%2fcli 1254ms (cache miss)
+135 silly packumentCache full:https://registry.npmjs.org/@expo%2fcli set size:undefined disposed:false
+136 silly fetch manifest @expo/local-build-cache-provider@^58.0.9
+137 silly packumentCache full:https://registry.npmjs.org/@expo%2flocal-build-cache-provider cache-miss
+138 http fetch GET 200 https://registry.npmjs.org/@ungap%2fstructured-clone 82ms (cache miss)
+139 silly packumentCache full:https://registry.npmjs.org/@ungap%2fstructured-clone set size:undefined disposed:false
+140 silly fetch manifest flow-parser@0.327.0
+141 silly packumentCache full:https://registry.npmjs.org/flow-parser cache-miss
+142 http fetch GET 200 https://registry.npmjs.org/expo-file-system 729ms (cache miss)
+143 silly packumentCache full:https://registry.npmjs.org/expo-file-system set size:undefined disposed:false
+144 silly fetch manifest react-refresh@^0.14.0
+145 silly packumentCache full:https://registry.npmjs.org/react-refresh cache-miss
+146 http fetch GET 200 https://registry.npmjs.org/babel-preset-expo 602ms (cache miss)
+147 silly packumentCache full:https://registry.npmjs.org/babel-preset-expo set size:undefined disposed:false
+148 silly fetch manifest hermes-compiler@260318099.0.5
+149 silly packumentCache full:https://registry.npmjs.org/hermes-compiler cache-miss
+150 http fetch GET 200 https://registry.npmjs.org/@babel%2fruntime 1494ms (cache miss)
+151 silly packumentCache full:https://registry.npmjs.org/@babel%2fruntime set size:undefined disposed:false
+152 silly fetch manifest react-devtools-core@^6.1.5
+153 silly packumentCache full:https://registry.npmjs.org/react-devtools-core cache-miss
+154 http fetch GET 200 https://registry.npmjs.org/expo-modules-core 735ms (cache miss)
+155 silly packumentCache full:https://registry.npmjs.org/expo-modules-core set size:undefined disposed:false
+156 http fetch GET 200 https://registry.npmjs.org/@expo%2flocal-build-cache-provider 392ms (cache miss)
+157 silly packumentCache full:https://registry.npmjs.org/@expo%2flocal-build-cache-provider set size:undefined disposed:false
+158 http fetch GET 200 https://registry.npmjs.org/expo-modules-autolinking 489ms (cache miss)
+159 silly packumentCache full:https://registry.npmjs.org/expo-modules-autolinking set size:undefined disposed:false
+160 http fetch GET 200 https://registry.npmjs.org/hermes-compiler 373ms (cache miss)
+161 silly packumentCache full:https://registry.npmjs.org/hermes-compiler set size:undefined disposed:false
+162 http fetch GET 200 https://registry.npmjs.org/react-devtools-core 358ms (cache miss)
+163 silly packumentCache full:https://registry.npmjs.org/react-devtools-core set size:undefined disposed:false
+164 http fetch GET 200 https://registry.npmjs.org/@expo%2ffingerprint 1205ms (cache miss)
+165 silly packumentCache full:https://registry.npmjs.org/@expo%2ffingerprint set size:undefined disposed:false
+166 http fetch GET 200 https://registry.npmjs.org/flow-parser 668ms (cache miss)
+167 silly packumentCache full:https://registry.npmjs.org/flow-parser set size:undefined disposed:false
+168 http fetch GET 200 https://registry.npmjs.org/@expo%2fconfig-plugins 1100ms (cache miss)
+169 silly packumentCache full:https://registry.npmjs.org/@expo%2fconfig-plugins set size:undefined disposed:false
+170 http fetch GET 200 https://registry.npmjs.org/@expo%2fmetro-config 1184ms (cache miss)
+171 silly packumentCache full:https://registry.npmjs.org/@expo%2fmetro-config set size:undefined disposed:false
+172 http fetch GET 200 https://registry.npmjs.org/react-refresh 2998ms (cache miss)
+173 silly packumentCache full:https://registry.npmjs.org/react-refresh set size:undefined disposed:false
+174 http fetch GET 200 https://registry.npmjs.org/react-refresh 1814ms (cache miss)
+175 silly packumentCache full:https://registry.npmjs.org/react-refresh set size:undefined disposed:false
+176 silly placeDep ROOT csstype@3.2.3 OK for: @types/react@19.3.0 want: ^3.2.2
+177 silly fetch manifest expo@*
+178 silly packumentCache full:https://registry.npmjs.org/expo cache-miss
+179 http cache https://registry.npmjs.org/expo 22ms (cache hit)
+180 silly packumentCache full:https://registry.npmjs.org/expo set size:4384464 disposed:false
+181 silly fetch manifest react@*
+182 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+183 http cache https://registry.npmjs.org/react 22ms (cache hit)
+184 silly packumentCache full:https://registry.npmjs.org/react set size:7097863 disposed:false
+185 silly fetch manifest react-native@*
+186 silly packumentCache full:https://registry.npmjs.org/react-native cache-miss
+187 http cache https://registry.npmjs.org/react-native 35ms (cache hit)
+188 silly packumentCache full:https://registry.npmjs.org/react-native set size:16070313 disposed:false
+189 silly fetch manifest @types/react@^19.1.1
+190 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+191 http cache https://registry.npmjs.org/@types%2freact 15ms (cache hit)
+192 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:2642195 disposed:false
+193 silly fetch manifest expo-router@*
+194 silly packumentCache full:https://registry.npmjs.org/expo-router cache-miss
+195 http fetch GET 200 https://registry.npmjs.org/expo-router 261ms (cache miss)
+196 silly packumentCache full:https://registry.npmjs.org/expo-router set size:undefined disposed:false
+197 silly fetch manifest @expo/ui@^58.0.25
+198 silly packumentCache full:https://registry.npmjs.org/@expo%2fui cache-miss
+199 http fetch GET 200 https://registry.npmjs.org/@expo%2fui 116ms (cache miss)
+200 silly packumentCache full:https://registry.npmjs.org/@expo%2fui set size:undefined disposed:false
+201 silly fetch manifest @babel/core@*
+202 silly packumentCache full:https://registry.npmjs.org/@babel%2fcore cache-miss
+203 http fetch GET 200 https://registry.npmjs.org/@babel%2fcore 285ms (cache miss)
+204 silly packumentCache full:https://registry.npmjs.org/@babel%2fcore set size:undefined disposed:false
+205 silly fetch manifest react-native-worklets@*
+206 silly packumentCache full:https://registry.npmjs.org/react-native-worklets cache-miss
+207 http fetch GET 200 https://registry.npmjs.org/react-native-worklets 208ms (cache miss)
+208 silly packumentCache full:https://registry.npmjs.org/react-native-worklets set size:undefined disposed:false
+209 silly fetch manifest @react-native/metro-config@*
+210 silly packumentCache full:https://registry.npmjs.org/@react-native%2fmetro-config cache-miss
+211 http fetch GET 200 https://registry.npmjs.org/@react-native%2fmetro-config 885ms (cache miss)
+212 silly packumentCache full:https://registry.npmjs.org/@react-native%2fmetro-config set size:undefined disposed:false
+213 silly fetch manifest @testing-library/react-native@>= 14.0.0
+214 silly packumentCache full:https://registry.npmjs.org/@testing-library%2freact-native cache-miss
+215 http fetch GET 200 https://registry.npmjs.org/@testing-library%2freact-native 88ms (cache miss)
+216 silly packumentCache full:https://registry.npmjs.org/@testing-library%2freact-native set size:undefined disposed:false
+217 silly fetch manifest jest@>=29.0.0
+218 silly packumentCache full:https://registry.npmjs.org/jest cache-miss
+219 http fetch GET 200 https://registry.npmjs.org/jest 233ms (cache miss)
+220 silly packumentCache full:https://registry.npmjs.org/jest set size:undefined disposed:false
+221 silly fetch manifest node-notifier@^8.0.1 || ^9.0.0 || ^10.0.0
+222 silly packumentCache full:https://registry.npmjs.org/node-notifier cache-miss
+223 http fetch GET 200 https://registry.npmjs.org/node-notifier 74ms (cache miss)
+224 silly packumentCache full:https://registry.npmjs.org/node-notifier set size:undefined disposed:false
+225 silly fetch manifest test-renderer@^1.0.0
+226 silly packumentCache full:https://registry.npmjs.org/test-renderer cache-miss
+227 http fetch GET 200 https://registry.npmjs.org/test-renderer 54ms (cache miss)
+228 silly packumentCache full:https://registry.npmjs.org/test-renderer set size:undefined disposed:false
+229 silly fetch manifest expo-linking@^58.0.15
+230 silly packumentCache full:https://registry.npmjs.org/expo-linking cache-miss
+231 http fetch GET 200 https://registry.npmjs.org/expo-linking 112ms (cache miss)
+232 silly packumentCache full:https://registry.npmjs.org/expo-linking set size:undefined disposed:false
+233 silly fetch manifest expo-symbols@^58.0.4
+234 silly packumentCache full:https://registry.npmjs.org/expo-symbols cache-miss
+235 http fetch GET 200 https://registry.npmjs.org/expo-symbols 61ms (cache miss)
+236 silly packumentCache full:https://registry.npmjs.org/expo-symbols set size:undefined disposed:false
+237 silly fetch manifest react-native-gesture-handler@*
+238 silly packumentCache full:https://registry.npmjs.org/react-native-gesture-handler cache-miss
+239 http fetch GET 200 https://registry.npmjs.org/react-native-gesture-handler 115ms (cache miss)
+240 silly packumentCache full:https://registry.npmjs.org/react-native-gesture-handler set size:undefined disposed:false
+241 silly fetch manifest react-native-reanimated@*
+242 silly packumentCache full:https://registry.npmjs.org/react-native-reanimated cache-miss
+243 http fetch GET 200 https://registry.npmjs.org/react-native-reanimated 377ms (cache miss)
+244 silly packumentCache full:https://registry.npmjs.org/react-native-reanimated set size:undefined disposed:false
+245 silly fetch manifest react-native-safe-area-context@>= 5.4.0
+246 silly packumentCache full:https://registry.npmjs.org/react-native-safe-area-context cache-miss
+247 http fetch GET 200 https://registry.npmjs.org/react-native-safe-area-context 111ms (cache miss)
+248 silly packumentCache full:https://registry.npmjs.org/react-native-safe-area-context set size:undefined disposed:false
+249 silly fetch manifest react-server-dom-webpack@~19.0.4 || ~19.1.5 || ~19.2.4 || ~19.3.0
+250 silly packumentCache full:https://registry.npmjs.org/react-server-dom-webpack cache-miss
+251 http fetch GET 200 https://registry.npmjs.org/react-server-dom-webpack 813ms (cache miss)
+252 silly packumentCache full:https://registry.npmjs.org/react-server-dom-webpack set size:undefined disposed:false
+253 silly fetch manifest webpack@^5.59.0
+254 silly packumentCache full:https://registry.npmjs.org/webpack cache-miss
+255 http fetch GET 200 https://registry.npmjs.org/webpack 298ms (cache miss)
+256 silly packumentCache full:https://registry.npmjs.org/webpack set size:undefined disposed:false
+257 silly fetch manifest expo-widgets@^58.0.25
+258 silly packumentCache full:https://registry.npmjs.org/expo-widgets cache-miss
+259 http fetch GET 200 https://registry.npmjs.org/expo-widgets 62ms (cache miss)
+260 silly packumentCache full:https://registry.npmjs.org/expo-widgets set size:undefined disposed:false
+261 silly fetch manifest react-native-worklets@>=0.13.0
+262 silly packumentCache full:https://registry.npmjs.org/react-native-worklets cache-miss
+263 http cache https://registry.npmjs.org/react-native-worklets 10ms (cache hit)
+264 silly packumentCache full:https://registry.npmjs.org/react-native-worklets set size:3784520 disposed:false
+265 silly placeDep ROOT @babel/runtime@7.29.10 OK for: expo@58.0.21 want: ^7.20.0
+266 silly placeDep node_modules/expo @expo/cli@58.1.17 CONFLICT for: expo@58.0.21 want: ^58.1.17
+267 silly placeDep ROOT @expo/config@58.0.9 OK for: expo@58.0.21 want: ~58.0.9
+268 silly placeDep ROOT @expo/config-plugins@58.0.11 OK for: expo@58.0.21 want: ~58.0.11
+269 silly placeDep node_modules/expo @expo/devtools@58.0.2 CONFLICT for: expo@58.0.21 want: ~58.0.2
+270 silly placeDep node_modules/expo @expo/dom-webview@58.0.2 CONFLICT for: expo@58.0.21 want: ~58.0.2
+271 silly placeDep ROOT @expo/fingerprint@0.21.7 OK for: expo@58.0.21 want: ^0.21.7
+272 silly placeDep ROOT @expo/local-build-cache-provider@58.0.9 OK for: expo@58.0.21 want: ^58.0.9
+273 silly placeDep node_modules/expo @expo/log-box@58.0.13 CONFLICT for: expo@58.0.21 want: ^58.0.13
+274 silly placeDep ROOT @expo/metro@58.0.0 OK for: expo@58.0.21 want: ~58.0.0
+275 silly placeDep node_modules/expo @expo/metro-config@58.0.19 CONFLICT for: expo@58.0.21 want: ~58.0.19
+276 silly placeDep ROOT @ungap/structured-clone@1.4.0 OK for: expo@58.0.21 want: ^1.3.0
+277 silly placeDep node_modules/expo babel-preset-expo@58.0.22 CONFLICT for: expo@58.0.21 want: ~58.0.22
+278 silly placeDep ROOT react-refresh@0.14.2 OK for: babel-preset-expo@58.0.22 want: >=0.14.0 <1.0.0
+279 silly placeDep node_modules/expo expo-asset@58.0.19 CONFLICT for: expo@58.0.21 want: ~58.0.19
+280 silly placeDep node_modules/expo expo-constants@58.0.14 CONFLICT for: expo@58.0.21 want: ~58.0.14
+281 silly placeDep node_modules/expo expo-file-system@58.0.13 CONFLICT for: expo@58.0.21 want: ~58.0.13
+282 silly placeDep node_modules/expo expo-font@58.0.11 CONFLICT for: expo@58.0.21 want: ~58.0.11
+283 silly placeDep node_modules/expo expo-keep-awake@58.0.3 CONFLICT for: expo@58.0.21 want: ~58.0.3
+284 silly placeDep ROOT expo-modules-autolinking@58.0.16 OK for: expo@58.0.21 want: ~58.0.16
+285 silly placeDep ROOT expo-modules-cli@0.4.0 OK for: expo@58.0.21 want: ~0.4.0
+286 silly placeDep ROOT expo-modules-core@58.0.28 OK for: expo@58.0.21 want: ~58.0.28
+287 silly placeDep ROOT pretty-format@29.7.0 OK for: expo@58.0.21 want: ^29.7.0
+288 silly fetch manifest ws@^8.12.1
+289 silly packumentCache full:https://registry.npmjs.org/ws cache-miss
+290 silly fetch manifest glob@^13.0.0
+291 silly packumentCache full:https://registry.npmjs.org/glob cache-miss
+292 silly fetch manifest accepts@^1.3.8
+293 silly packumentCache full:https://registry.npmjs.org/accepts cache-miss
+294 silly fetch manifest picomatch@^4.0.4
+295 silly packumentCache full:https://registry.npmjs.org/picomatch cache-miss
+296 silly fetch manifest @expo/json-file@^11.2.1
+297 silly packumentCache full:https://registry.npmjs.org/@expo%2fjson-file cache-miss
+298 silly fetch manifest @expo/ws-tunnel@^2.0.1
+299 silly packumentCache full:https://registry.npmjs.org/@expo%2fws-tunnel cache-miss
+300 silly fetch manifest @expo/metro-config@58.0.19
+301 silly packumentCache full:https://registry.npmjs.org/@expo%2fmetro-config cache-miss
+302 silly fetch manifest @expo/router-server@^58.0.19
+303 silly packumentCache full:https://registry.npmjs.org/@expo%2frouter-server cache-miss
+304 silly fetch manifest glob@^13.0.0
+305 silly packumentCache full:https://registry.npmjs.org/glob cache-miss
+306 silly fetch manifest @expo/json-file@^11.2.1
+307 silly packumentCache full:https://registry.npmjs.org/@expo%2fjson-file cache-miss
+308 silly fetch manifest glob@^13.0.0
+309 silly packumentCache full:https://registry.npmjs.org/glob cache-miss
+310 http cache https://registry.npmjs.org/@expo%2fmetro-config 19ms (cache hit)
+311 silly packumentCache full:https://registry.npmjs.org/@expo%2fmetro-config set size:1805538 disposed:false
+312 silly fetch manifest @expo/json-file@~11.2.1
+313 silly packumentCache full:https://registry.npmjs.org/@expo%2fjson-file cache-miss
+314 http fetch GET 200 https://registry.npmjs.org/accepts 39ms (cache miss)
+315 silly packumentCache full:https://registry.npmjs.org/accepts set size:undefined disposed:false
+316 silly fetch manifest glob@^13.0.0
+317 silly packumentCache full:https://registry.npmjs.org/glob cache-miss
+318 http fetch GET 200 https://registry.npmjs.org/@expo%2fws-tunnel 51ms (cache miss)
+319 silly packumentCache full:https://registry.npmjs.org/@expo%2fws-tunnel set size:undefined disposed:false
+320 silly fetch manifest metro@0.87.1
+321 silly packumentCache full:https://registry.npmjs.org/metro cache-miss
+322 http fetch GET 200 https://registry.npmjs.org/picomatch 183ms (cache miss)
+323 silly packumentCache full:https://registry.npmjs.org/picomatch set size:undefined disposed:false
+324 silly fetch manifest glob@^13.0.0
+325 silly packumentCache full:https://registry.npmjs.org/glob cache-miss
+326 http fetch GET 200 https://registry.npmjs.org/@expo%2frouter-server 310ms (cache miss)
+327 silly packumentCache full:https://registry.npmjs.org/@expo%2frouter-server set size:undefined disposed:false
+328 silly fetch manifest @expo/json-file@~11.2.1
+329 silly packumentCache full:https://registry.npmjs.org/@expo%2fjson-file cache-miss
+330 http fetch GET 200 https://registry.npmjs.org/glob 508ms (cache miss)
+331 silly packumentCache full:https://registry.npmjs.org/glob set size:undefined disposed:false
+332 silly fetch manifest expo-modules-macros@0.27.1
+333 silly packumentCache full:https://registry.npmjs.org/expo-modules-macros cache-miss
+334 http fetch GET 200 https://registry.npmjs.org/glob 512ms (cache miss)
+335 silly packumentCache full:https://registry.npmjs.org/glob set size:undefined disposed:false
+336 silly fetch manifest ansi-styles@^5.0.0
+337 silly packumentCache full:https://registry.npmjs.org/ansi-styles cache-miss
+338 http fetch GET 200 https://registry.npmjs.org/glob 521ms (cache miss)
+339 silly packumentCache full:https://registry.npmjs.org/glob set size:undefined disposed:false
+340 http fetch GET 200 https://registry.npmjs.org/ws 551ms (cache miss)
+341 silly packumentCache full:https://registry.npmjs.org/ws set size:undefined disposed:false
+342 http fetch GET 200 https://registry.npmjs.org/glob 525ms (cache miss)
+343 silly packumentCache full:https://registry.npmjs.org/glob set size:undefined disposed:false
+344 http fetch GET 200 https://registry.npmjs.org/@expo%2fjson-file 619ms (cache miss)
+345 silly packumentCache full:https://registry.npmjs.org/@expo%2fjson-file set size:undefined disposed:false
+346 http fetch GET 200 https://registry.npmjs.org/ansi-styles 119ms (cache miss)
+347 silly packumentCache full:https://registry.npmjs.org/ansi-styles set size:undefined disposed:false
+348 http fetch GET 200 https://registry.npmjs.org/expo-modules-macros 126ms (cache miss)
+349 silly packumentCache full:https://registry.npmjs.org/expo-modules-macros set size:undefined disposed:false
+350 http fetch GET 200 https://registry.npmjs.org/@expo%2fjson-file 640ms (cache miss)
+351 silly packumentCache full:https://registry.npmjs.org/@expo%2fjson-file set size:undefined disposed:false
+352 http fetch GET 200 https://registry.npmjs.org/glob 466ms (cache miss)
+353 silly packumentCache full:https://registry.npmjs.org/glob set size:undefined disposed:false
+354 http fetch GET 200 https://registry.npmjs.org/@expo%2fjson-file 629ms (cache miss)
+355 silly packumentCache full:https://registry.npmjs.org/@expo%2fjson-file set size:undefined disposed:false
+356 http fetch GET 200 https://registry.npmjs.org/metro 621ms (cache miss)
+357 silly packumentCache full:https://registry.npmjs.org/metro set size:undefined disposed:false
+358 http fetch GET 200 https://registry.npmjs.org/@expo%2fjson-file 375ms (cache miss)
+359 silly packumentCache full:https://registry.npmjs.org/@expo%2fjson-file set size:undefined disposed:false
+360 silly placeDep node_modules/@expo/config @expo/json-file@11.2.1 OK for: @expo/config@58.0.9 want: ^11.2.1
+361 silly placeDep node_modules/@expo/config glob@13.0.6 OK for: @expo/config@58.0.9 want: ^13.0.0
+362 silly placeDep node_modules/@expo/config-plugins @expo/json-file@11.2.1 OK for: @expo/config-plugins@58.0.11 want: ~11.2.1
+363 silly placeDep node_modules/@expo/config-plugins glob@13.0.6 OK for: @expo/config-plugins@58.0.11 want: ^13.0.0
+364 silly placeDep node_modules/@expo/fingerprint glob@13.0.6 OK for: @expo/fingerprint@0.21.7 want: ^13.0.0
+365 silly placeDep node_modules/@expo/metro metro@0.87.1 OK for: @expo/metro@58.0.0 want: 0.87.1
+366 silly placeDep node_modules/expo-modules-core expo-modules-macros@0.27.1 OK for: expo-modules-core@58.0.28 want: 0.27.1
+367 silly fetch manifest @expo/modules-macros-linux-x64@0.27.1
+368 silly packumentCache full:https://registry.npmjs.org/@expo%2fmodules-macros-linux-x64 cache-miss
+369 silly fetch manifest @expo/modules-macros-win32-x64@0.27.1
+370 silly packumentCache full:https://registry.npmjs.org/@expo%2fmodules-macros-win32-x64 cache-miss
+371 silly fetch manifest @expo/modules-macros-linux-arm64@0.27.1
+372 silly packumentCache full:https://registry.npmjs.org/@expo%2fmodules-macros-linux-arm64 cache-miss
+373 silly fetch manifest @expo/modules-macros-win32-arm64@0.27.1
+374 silly packumentCache full:https://registry.npmjs.org/@expo%2fmodules-macros-win32-arm64 cache-miss
+375 http fetch GET 200 https://registry.npmjs.org/@expo%2fmodules-macros-linux-arm64 53ms (cache miss)
+376 silly packumentCache full:https://registry.npmjs.org/@expo%2fmodules-macros-linux-arm64 set size:undefined disposed:false
+377 http fetch GET 200 https://registry.npmjs.org/@expo%2fmodules-macros-win32-arm64 258ms (cache miss)
+378 silly packumentCache full:https://registry.npmjs.org/@expo%2fmodules-macros-win32-arm64 set size:undefined disposed:false
+379 http fetch GET 200 https://registry.npmjs.org/@expo%2fmodules-macros-win32-x64 334ms (cache miss)
+380 silly packumentCache full:https://registry.npmjs.org/@expo%2fmodules-macros-win32-x64 set size:undefined disposed:false
+381 http fetch GET 200 https://registry.npmjs.org/@expo%2fmodules-macros-linux-x64 753ms (cache miss)
+382 silly packumentCache full:https://registry.npmjs.org/@expo%2fmodules-macros-linux-x64 set size:undefined disposed:false
+383 silly placeDep node_modules/pretty-format ansi-styles@5.2.0 OK for: pretty-format@29.7.0 want: ^5.0.0
+384 silly placeDep node_modules/react-native flow-parser@0.327.0 OK for: react-native@0.88.1 want: 0.327.0
+385 silly placeDep ROOT hermes-compiler@260318099.0.5 OK for: react-native@0.88.1 want: 260318099.0.5
+386 silly placeDep ROOT react-devtools-core@6.1.5 OK for: react-native@0.88.1 want: ^6.1.5
+387 silly fetch manifest flow-estree@0.327.0
+388 silly packumentCache full:https://registry.npmjs.org/flow-estree cache-miss
+389 http fetch GET 200 https://registry.npmjs.org/flow-estree 36ms (cache miss)
+390 silly packumentCache full:https://registry.npmjs.org/flow-estree set size:undefined disposed:false
+391 silly placeDep ROOT @expo/modules-macros-linux-arm64@0.27.1 OK for: expo-modules-macros@0.27.1 want: 0.27.1
+392 silly placeDep ROOT @expo/modules-macros-linux-x64@0.27.1 OK for: expo-modules-macros@0.27.1 want: 0.27.1
+393 silly placeDep ROOT @expo/modules-macros-win32-arm64@0.27.1 OK for: expo-modules-macros@0.27.1 want: 0.27.1
+394 silly placeDep node_modules/expo-modules-core @expo/modules-macros-win32-x64@0.27.1 OK for: expo-modules-macros@0.27.1 want: 0.27.1
+395 silly fetch manifest bufferutil@^4.0.1
+396 silly packumentCache full:https://registry.npmjs.org/bufferutil cache-miss
+397 http fetch GET 200 https://registry.npmjs.org/bufferutil 33ms (cache miss)
+398 silly packumentCache full:https://registry.npmjs.org/bufferutil set size:undefined disposed:false
+399 silly fetch manifest utf-8-validate@>=5.0.2
+400 silly packumentCache full:https://registry.npmjs.org/utf-8-validate cache-miss
+401 http fetch GET 200 https://registry.npmjs.org/utf-8-validate 35ms (cache miss)
+402 silly packumentCache full:https://registry.npmjs.org/utf-8-validate set size:undefined disposed:false
+403 silly fetch manifest @expo/metro-runtime@^58.0.15
+404 silly packumentCache full:https://registry.npmjs.org/@expo%2fmetro-runtime cache-miss
+405 http cache https://registry.npmjs.org/@expo%2fmetro-runtime 4ms (cache hit)
+406 silly packumentCache full:https://registry.npmjs.org/@expo%2fmetro-runtime set size:886417 disposed:false
+407 silly fetch manifest expo-constants@^58.0.14
+408 silly packumentCache full:https://registry.npmjs.org/expo-constants cache-miss
+409 http cache https://registry.npmjs.org/expo-constants 5ms (cache hit)
+410 silly packumentCache full:https://registry.npmjs.org/expo-constants set size:1300616 disposed:false
+411 silly fetch manifest expo-font@^58.0.11
+412 silly packumentCache full:https://registry.npmjs.org/expo-font cache-miss
+413 http cache https://registry.npmjs.org/expo-font 4ms (cache hit)
+414 silly packumentCache full:https://registry.npmjs.org/expo-font set size:1054270 disposed:false
+415 silly fetch manifest expo-server@^58.0.6
+416 silly packumentCache full:https://registry.npmjs.org/expo-server cache-miss
+417 http fetch GET 200 https://registry.npmjs.org/expo-server 47ms (cache miss)
+418 silly packumentCache full:https://registry.npmjs.org/expo-server set size:undefined disposed:false
+419 silly placeDep node_modules/expo @expo/json-file@11.2.1 OK for: @expo/cli@58.1.17 want: ^11.2.1
+420 silly placeDep node_modules/expo/node_modules/@expo/cli @expo/router-server@58.0.19 CONFLICT for: @expo/cli@58.1.17 want: ^58.0.19
+421 silly placeDep node_modules/expo @expo/ws-tunnel@2.0.1 OK for: @expo/cli@58.1.17 want: ^2.0.1
+422 silly placeDep node_modules/expo ws@8.22.0 OK for: @expo/ws-tunnel@2.0.1 want: ^8.0.0
+423 silly placeDep node_modules/expo accepts@1.3.8 OK for: @expo/cli@58.1.17 want: ^1.3.8
+424 silly placeDep node_modules/expo glob@13.0.6 OK for: @expo/cli@58.1.17 want: ^13.0.0
+425 silly placeDep node_modules/expo picomatch@4.0.7 OK for: @expo/cli@58.1.17 want: ^4.0.4
+426 silly fetch manifest mime-types@~2.1.34
+427 silly packumentCache full:https://registry.npmjs.org/mime-types cache-miss
+428 silly fetch manifest negotiator@0.6.3
+429 silly packumentCache full:https://registry.npmjs.org/negotiator cache-miss
+430 http fetch GET 200 https://registry.npmjs.org/negotiator 33ms (cache miss)
+431 silly packumentCache full:https://registry.npmjs.org/negotiator set size:undefined disposed:false
+432 http fetch GET 200 https://registry.npmjs.org/mime-types 39ms (cache miss)
+433 silly packumentCache full:https://registry.npmjs.org/mime-types set size:undefined disposed:false
+434 silly placeDep node_modules/expo mime-types@2.1.35 OK for: accepts@1.3.8 want: ~2.1.34
+435 silly placeDep node_modules/expo negotiator@0.6.3 OK for: accepts@1.3.8 want: 0.6.3
+436 silly fetch manifest mime-db@1.52.0
+437 silly packumentCache full:https://registry.npmjs.org/mime-db cache-miss
+438 http fetch GET 200 https://registry.npmjs.org/mime-db 34ms (cache miss)
+439 silly packumentCache full:https://registry.npmjs.org/mime-db set size:undefined disposed:false
+440 silly placeDep node_modules/expo mime-db@1.52.0 OK for: mime-types@2.1.35 want: 1.52.0
+441 silly placeDep node_modules/react-native flow-estree@0.327.0 OK for: flow-parser@0.327.0 want: 0.327.0
+442 silly reify mark retired [
+442 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\csstype'
+442 silly reify ]
+443 silly reify mark retired [
+443 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\expo'
+443 silly reify ]
+444 silly reify mark retired [
+444 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\expo-modules-autolinking'
+444 silly reify ]
+445 silly reify mark retired [
+445 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\expo-modules-core'
+445 silly reify ]
+446 silly reify mark retired [
+446 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\expo-modules-macros'
+446 silly reify ]
+447 silly reify mark retired [
+447 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\expo-modules-cli'
+447 silly reify ]
+448 silly reify mark retired [
+448 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\expo-status-bar'
+448 silly reify ]
+449 silly reify mark retired [
+449 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\glob'
+449 silly reify ]
+450 silly reify mark retired [
+450 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\hermes-compiler'
+450 silly reify ]
+451 silly reify mark retired [
+451 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\pretty-format'
+451 silly reify ]
+452 silly reify mark retired [
+452 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\react-devtools-core'
+452 silly reify ]
+453 silly reify mark retired [
+453 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\react'
+453 silly reify ]
+454 silly reify mark retired [
+454 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\react-native'
+454 silly reify ]
+455 silly reify mark retired [
+455 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\react-refresh'
+455 silly reify ]
+456 silly reify mark retired [
+456 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\typescript'
+456 silly reify ]
+457 silly reify mark retired [
+457 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@babel\\runtime'
+457 silly reify ]
+458 silly reify mark retired [
+458 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@expo\\config-plugins'
+458 silly reify ]
+459 silly reify mark retired [
+459 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@expo\\fingerprint'
+459 silly reify ]
+460 silly reify mark retired [
+460 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@expo\\config'
+460 silly reify ]
+461 silly reify mark retired [
+461 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@expo\\local-build-cache-provider'
+461 silly reify ]
+462 silly reify mark retired [
+462 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@expo\\metro'
+462 silly reify ]
+463 silly reify mark retired [
+463 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@expo\\modules-macros-win32-x64'
+463 silly reify ]
+464 silly reify mark retired [
+464 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@types\\react'
+464 silly reify ]
+465 silly reify mark retired [
+465 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@ungap\\structured-clone'
+465 silly reify ]
+466 silly reify mark retired [
+466 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\2g',
+466 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\2g',
+466 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\2g.cmd',
+466 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\2g.ps1'
+466 silly reify ]
+467 silly reify mark retired [
+467 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\acorn',
+467 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\acorn',
+467 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\acorn.cmd',
+467 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\acorn.ps1'
+467 silly reify ]
+468 silly reify mark retired [
+468 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\agent-cli-detector',
+468 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\agent-cli-detector',
+468 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\agent-cli-detector.cmd',
+468 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\agent-cli-detector.ps1'
+468 silly reify ]
+469 silly reify mark retired [
+469 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\baseline-browser-mapping',
+469 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\baseline-browser-mapping',
+469 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\baseline-browser-mapping.cmd',
+469 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\baseline-browser-mapping.ps1'
+469 silly reify ]
+470 silly reify mark retired [
+470 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\browserslist',
+470 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\browserslist',
+470 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\browserslist.cmd',
+470 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\browserslist.ps1'
+470 silly reify ]
+471 silly reify mark retired [
+471 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\compression\\node_modules\\ms'
+471 silly reify ]
+472 silly reify mark retired [
+472 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\connect\\node_modules\\ms'
+472 silly reify ]
+473 silly reify mark retired [
+473 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\escape-string-regexp'
+473 silly reify ]
+474 silly reify mark retired [
+474 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\finalhandler\\node_modules\\ms'
+474 silly reify ]
+475 silly reify mark retired [
+475 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\is-docker',
+475 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\is-docker',
+475 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\is-docker.cmd',
+475 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\is-docker.ps1'
+475 silly reify ]
+476 silly reify mark retired [
+476 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\js-yaml',
+476 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\js-yaml',
+476 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\js-yaml.cmd',
+476 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\js-yaml.ps1'
+476 silly reify ]
+477 silly reify mark retired [
+477 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\json5',
+477 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\json5',
+477 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\json5.cmd',
+477 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\json5.ps1'
+477 silly reify ]
+478 silly reify mark retired [
+478 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\lan-network',
+478 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\lan-network',
+478 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\lan-network.cmd',
+478 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\lan-network.ps1'
+478 silly reify ]
+479 silly reify mark retired [
+479 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\jsesc',
+479 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\jsesc',
+479 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\jsesc.cmd',
+479 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\jsesc.ps1'
+479 silly reify ]
+480 silly reify mark retired [
+480 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\loose-envify',
+480 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\loose-envify',
+480 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\loose-envify.cmd',
+480 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\loose-envify.ps1'
+480 silly reify ]
+481 silly reify mark retired [
+481 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\log-symbols\\node_modules\\ansi-styles'
+481 silly reify ]
+482 silly reify mark retired [
+482 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\log-symbols\\node_modules\\color-convert'
+482 silly reify ]
+483 silly reify mark retired [
+483 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\log-symbols\\node_modules\\has-flag'
+483 silly reify ]
+484 silly reify mark retired [
+484 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\log-symbols\\node_modules\\supports-color'
+484 silly reify ]
+485 silly reify mark retired [
+485 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\log-symbols\\node_modules\\color-name'
+485 silly reify ]
+486 silly reify mark retired [
+486 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\metro-symbolicate',
+486 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\metro-symbolicate',
+486 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\metro-symbolicate.cmd',
+486 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\metro-symbolicate.ps1'
+486 silly reify ]
+487 silly reify mark retired [
+487 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\mime',
+487 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\mime',
+487 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\mime.cmd',
+487 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\mime.ps1'
+487 silly reify ]
+488 silly reify mark retired [
+488 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\nanoid',
+488 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\nanoid',
+488 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\nanoid.cmd',
+488 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\nanoid.ps1'
+488 silly reify ]
+489 silly reify mark retired [
+489 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\ora\\node_modules\\ansi-styles'
+489 silly reify ]
+490 silly reify mark retired [
+490 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\ora\\node_modules\\ansi-regex'
+490 silly reify ]
+491 silly reify mark retired [
+491 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\ora\\node_modules\\color-convert'
+491 silly reify ]
+492 silly reify mark retired [
+492 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\ora\\node_modules\\supports-color'
+492 silly reify ]
+493 silly reify mark retired [
+493 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\ora\\node_modules\\color-name'
+493 silly reify ]
+494 silly reify mark retired [
+494 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\ora\\node_modules\\has-flag'
+494 silly reify ]
+495 silly reify mark retired [
+495 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\regjsparser',
+495 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\regjsparser',
+495 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\regjsparser.cmd',
+495 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\regjsparser.ps1'
+495 silly reify ]
+496 silly reify mark retired [
+496 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\sandbox-cli-detector',
+496 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\sandbox-cli-detector',
+496 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\sandbox-cli-detector.cmd',
+496 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\sandbox-cli-detector.ps1'
+496 silly reify ]
+497 silly reify mark retired [
+497 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\resolve',
+497 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\resolve',
+497 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\resolve.cmd',
+497 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\resolve.ps1'
+497 silly reify ]
+498 silly reify mark retired [
+498 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\semver',
+498 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\semver',
+498 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\semver.cmd',
+498 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\semver.ps1'
+498 silly reify ]
+499 silly reify mark retired [
+499 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\send\\node_modules\\debug\\node_modules\\ms'
+499 silly reify ]
+500 silly reify mark retired [
+500 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\terser',
+500 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\terser',
+500 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\terser.cmd',
+500 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\terser.ps1'
+500 silly reify ]
+501 silly reify mark retired [
+501 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\update-browserslist-db',
+501 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\update-browserslist-db',
+501 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\update-browserslist-db.cmd',
+501 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\update-browserslist-db.ps1'
+501 silly reify ]
+502 silly reify mark retired [
+502 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\which',
+502 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\node-which',
+502 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\node-which.cmd',
+502 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\node-which.ps1'
+502 silly reify ]
+503 silly reify mark retired [
+503 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@babel\\parser',
+503 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\parser',
+503 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\parser.cmd',
+503 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\parser.ps1'
+503 silly reify ]
+504 silly reify mark retired [
+504 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@expo\\xcpretty',
+504 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\excpretty',
+504 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\excpretty.cmd',
+504 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\excpretty.ps1'
+504 silly reify ]
+505 silly reify mark retired [
+505 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@react-native\\codegen\\node_modules\\flow-estree'
+505 silly reify ]
+506 silly reify moves {
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\csstype': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.csstype-MrcYGw0Z',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\expo': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.expo-Xpj12JFx',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\expo-modules-autolinking': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.expo-modules-autolinking-GRTVRy7T',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\expo-modules-core': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.expo-modules-core-VeReMtQ2',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\expo-modules-macros': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.expo-modules-macros-TGS0kUHI',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\expo-modules-cli': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.expo-modules-cli-uLXiclmn',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\expo-status-bar': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.expo-status-bar-MUOob7nW',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\glob': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.glob-FrKzStkH',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\hermes-compiler': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.hermes-compiler-EVGjp5C7',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\pretty-format': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.pretty-format-UhmmXf6L',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\react-devtools-core': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.react-devtools-core-XelHsXq2',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\react': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.react-HN1MckVH',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\react-native': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.react-native-YWQuRTwV',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\react-refresh': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.react-refresh-PoTDIWON',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\typescript': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.typescript-lh59yvSB',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@babel\\runtime': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@babel\\.runtime-lsYxxQ6v',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@expo\\config-plugins': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@expo\\.config-plugins-MTSzbJR2',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@expo\\fingerprint': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@expo\\.fingerprint-533lbytI',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@expo\\config': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@expo\\.config-AIiDpgtT',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@expo\\local-build-cache-provider': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@expo\\.local-build-cache-provider-FTn92zNG',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@expo\\metro': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@expo\\.metro-geLD7IuC',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@expo\\modules-macros-win32-x64': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@expo\\.modules-macros-win32-x64-hLti5Oqa',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@types\\react': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@types\\.react-tFmQkxSO',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@ungap\\structured-clone': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@ungap\\.structured-clone-diejoTma',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\2g': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.2g-m9ywihdo',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\2g': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.2g-sYwF8OBE',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\2g.cmd': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.2g.cmd-sk6qravo',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\2g.ps1': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.2g.ps1-B6dABdr2',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\acorn': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.acorn-ARFQe0on',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\acorn': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.acorn-Inc5oPFo',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\acorn.cmd': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.acorn.cmd-vCPqRUxr',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\acorn.ps1': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.acorn.ps1-WhOFTx37',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\agent-cli-detector': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.agent-cli-detector-g9OV23Xt',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\agent-cli-detector': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.agent-cli-detector-45HG1GuE',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\agent-cli-detector.cmd': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.agent-cli-detector.cmd-01SGhBFB',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\agent-cli-detector.ps1': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.agent-cli-detector.ps1-MdOALyZ0',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\baseline-browser-mapping': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.baseline-browser-mapping-3gqPYRkU',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\baseline-browser-mapping': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.baseline-browser-mapping-I5Gfr8lw',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\baseline-browser-mapping.cmd': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.baseline-browser-mapping.cmd-IY1Xn0Qt',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\baseline-browser-mapping.ps1': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.baseline-browser-mapping.ps1-IcSIfLqD',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\browserslist': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.browserslist-R7pdohVO',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\browserslist': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.browserslist-LIxuMxtD',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\browserslist.cmd': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.browserslist.cmd-eYZzmPX4',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\browserslist.ps1': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.browserslist.ps1-3CONEgYg',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\compression\\node_modules\\ms': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\compression\\node_modules\\.ms-sC09fkZ1',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\connect\\node_modules\\ms': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\connect\\node_modules\\.ms-2sXMn9qw',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\escape-string-regexp': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.escape-string-regexp-Eqsfvqpx',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\finalhandler\\node_modules\\ms': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\finalhandler\\node_modules\\.ms-3gkqvokm',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\is-docker': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.is-docker-fqa3Ebvv',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\is-docker': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.is-docker-1zI6HOdY',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\is-docker.cmd': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.is-docker.cmd-JytMdhQJ',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\is-docker.ps1': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.is-docker.ps1-xZ7nlFcc',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\js-yaml': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.js-yaml-CUrQ6fez',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\js-yaml': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.js-yaml-V9sJxnXU',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\js-yaml.cmd': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.js-yaml.cmd-UKrAAlIf',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\js-yaml.ps1': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.js-yaml.ps1-G7rJgtPW',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\json5': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.json5-MEUho2cq',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\json5': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.json5-5nOgcFQx',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\json5.cmd': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.json5.cmd-PE5PsRn6',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\json5.ps1': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.json5.ps1-VHcCQLWK',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\lan-network': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.lan-network-w3BdDvFH',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\lan-network': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.lan-network-alKanh9E',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\lan-network.cmd': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.lan-network.cmd-uL2sz7lf',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\lan-network.ps1': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.lan-network.ps1-bKBSjkcn',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\jsesc': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.jsesc-69lQpqhR',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\jsesc': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.jsesc-YeoiaAjJ',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\jsesc.cmd': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.jsesc.cmd-ExyyW6sH',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\jsesc.ps1': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.jsesc.ps1-TOczzcOE',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\loose-envify': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.loose-envify-9crclPkM',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\loose-envify': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.loose-envify-04a7VUD7',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\loose-envify.cmd': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.loose-envify.cmd-4tROhjpv',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\loose-envify.ps1': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.loose-envify.ps1-Q4bUV1up',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\log-symbols\\node_modules\\ansi-styles': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\log-symbols\\node_modules\\.ansi-styles-jhP6zYma',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\log-symbols\\node_modules\\color-convert': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\log-symbols\\node_modules\\.color-convert-RDTwcmvw',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\log-symbols\\node_modules\\has-flag': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\log-symbols\\node_modules\\.has-flag-iDxr3HDj',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\log-symbols\\node_modules\\supports-color': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\log-symbols\\node_modules\\.supports-color-nxTViSMq',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\log-symbols\\node_modules\\color-name': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\log-symbols\\node_modules\\.color-name-aooVWjBN',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\metro-symbolicate': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.metro-symbolicate-ChIr8Jjs',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\metro-symbolicate': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.metro-symbolicate-ldLo5DCd',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\metro-symbolicate.cmd': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.metro-symbolicate.cmd-RVkLtggz',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\metro-symbolicate.ps1': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.metro-symbolicate.ps1-45bmGc7W',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\mime': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.mime-TufggLQJ',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\mime': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.mime-fUphOe3V',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\mime.cmd': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.mime.cmd-RX8T8txA',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\mime.ps1': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.mime.ps1-7Mw7eXxM',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\nanoid': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.nanoid-8E8CoqUE',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\nanoid': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.nanoid-JiNOUoSD',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\nanoid.cmd': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.nanoid.cmd-WMUkAjt1',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\nanoid.ps1': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.nanoid.ps1-M3GYUL2P',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\ora\\node_modules\\ansi-styles': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\ora\\node_modules\\.ansi-styles-kCDSsLcV',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\ora\\node_modules\\ansi-regex': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\ora\\node_modules\\.ansi-regex-l7j5rftm',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\ora\\node_modules\\color-convert': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\ora\\node_modules\\.color-convert-w0YpMFvo',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\ora\\node_modules\\supports-color': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\ora\\node_modules\\.supports-color-LbeAxQ3d',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\ora\\node_modules\\color-name': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\ora\\node_modules\\.color-name-VOflkKnz',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\ora\\node_modules\\has-flag': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\ora\\node_modules\\.has-flag-GXyg2etM',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\regjsparser': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.regjsparser-rVyysBKW',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\regjsparser': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.regjsparser-bJZrya4d',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\regjsparser.cmd': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.regjsparser.cmd-paVUtx2I',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\regjsparser.ps1': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.regjsparser.ps1-rsTezTWl',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\sandbox-cli-detector': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.sandbox-cli-detector-PScVrB1M',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\sandbox-cli-detector': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.sandbox-cli-detector-PPBBlMyY',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\sandbox-cli-detector.cmd': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.sandbox-cli-detector.cmd-9hcBEDE2',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\sandbox-cli-detector.ps1': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.sandbox-cli-detector.ps1-bGPS32YO',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\resolve': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.resolve-1ah0YNUd',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\resolve': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.resolve-kqOyOaj3',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\resolve.cmd': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.resolve.cmd-3uR1FiGr',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\resolve.ps1': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.resolve.ps1-bPKbl3JH',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\semver': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.semver-5cdzdGYu',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\semver': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.semver-cEc60qRt',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\semver.cmd': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.semver.cmd-qx3klLlv',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\semver.ps1': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.semver.ps1-YoElvyQI',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\send\\node_modules\\debug\\node_modules\\ms': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\send\\node_modules\\debug\\node_modules\\.ms-NwpIZfU6',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\terser': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.terser-0ONY88vm',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\terser': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.terser-s1kjmvEw',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\terser.cmd': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.terser.cmd-ncYuc1gm',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\terser.ps1': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.terser.ps1-4UlY2eev',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\update-browserslist-db': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.update-browserslist-db-mmqtalk0',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\update-browserslist-db': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.update-browserslist-db-0UgN7DzM',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\update-browserslist-db.cmd': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.update-browserslist-db.cmd-I3n4ERjn',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\update-browserslist-db.ps1': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.update-browserslist-db.ps1-WqKfY3Xo',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\which': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.which-Wb0OtIRx',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\node-which': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.node-which-0K3Ixfoc',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\node-which.cmd': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.node-which.cmd-FlsReD5i',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\node-which.ps1': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.node-which.ps1-0BLKN0q3',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@babel\\parser': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@babel\\.parser-LY1EtlzK',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\parser': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.parser-pOUGKgpP',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\parser.cmd': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.parser.cmd-6i2X3jyc',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\parser.ps1': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.parser.ps1-HRtmi2BA',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@expo\\xcpretty': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@expo\\.xcpretty-Db8vfQsS',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\excpretty': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.excpretty-nMBAw1hX',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\excpretty.cmd': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.excpretty.cmd-gDSUT7gH',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\excpretty.ps1': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\.bin\\.excpretty.ps1-xyX7xwM1',
+506 silly reify   'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@react-native\\codegen\\node_modules\\flow-estree': 'C:\\Users\\Ranjeet\\Documents\\Codex\\2026-10-30\\new-chat\\track-app\\node_modules\\@react-native\\codegen\\node_modules\\.flow-estree-7IuFEezj'
+506 silly reify }
+507 silly packumentCache corgi:https://registry.npmjs.org/@expo%2fxcpretty cache-miss
+508 silly packumentCache corgi:https://registry.npmjs.org/@babel%2fparser cache-miss
+509 silly packumentCache corgi:https://registry.npmjs.org/terser cache-miss
+510 silly packumentCache corgi:https://registry.npmjs.org/semver cache-miss
+511 silly packumentCache corgi:https://registry.npmjs.org/which cache-miss
+512 silly packumentCache corgi:https://registry.npmjs.org/update-browserslist-db cache-miss
+513 silly packumentCache corgi:https://registry.npmjs.org/mime cache-miss
+514 silly packumentCache corgi:https://registry.npmjs.org/sandbox-cli-detector cache-miss
+515 silly packumentCache corgi:https://registry.npmjs.org/resolve cache-miss
+516 silly packumentCache corgi:https://registry.npmjs.org/metro-symbolicate cache-miss
+517 silly packumentCache corgi:https://registry.npmjs.org/loose-envify cache-miss
+518 silly packumentCache corgi:https://registry.npmjs.org/jsesc cache-miss
+519 silly packumentCache corgi:https://registry.npmjs.org/regjsparser cache-miss
+520 silly packumentCache corgi:https://registry.npmjs.org/nanoid cache-miss
+521 silly packumentCache corgi:https://registry.npmjs.org/json5 cache-miss
+522 silly packumentCache corgi:https://registry.npmjs.org/js-yaml cache-miss
+523 silly packumentCache corgi:https://registry.npmjs.org/lan-network cache-miss
+524 silly packumentCache corgi:https://registry.npmjs.org/browserslist cache-miss
+525 silly packumentCache corgi:https://registry.npmjs.org/agent-cli-detector cache-miss
+526 silly packumentCache corgi:https://registry.npmjs.org/is-docker cache-miss
+527 http cache @expo/metro@https://registry.npmjs.org/@expo/metro/-/metro-58.0.0.tgz 0ms (cache hit)
+528 silly packumentCache corgi:https://registry.npmjs.org/baseline-browser-mapping cache-miss
+529 http cache @ungap/structured-clone@https://registry.npmjs.org/@ungap/structured-clone/-/structured-clone-1.4.0.tgz 0ms (cache hit)
+530 http cache @expo/local-build-cache-provider@https://registry.npmjs.org/@expo/local-build-cache-provider/-/local-build-cache-provider-58.0.9.tgz 0ms (cache hit)
+531 silly packumentCache corgi:https://registry.npmjs.org/2g cache-miss
+532 http cache @expo/config@https://registry.npmjs.org/@expo/config/-/config-58.0.9.tgz 0ms (cache hit)
+533 silly packumentCache corgi:https://registry.npmjs.org/acorn cache-miss
+534 http cache @types/react@https://registry.npmjs.org/@types/react/-/react-19.3.0.tgz 0ms (cache hit)
+535 http cache @expo/config-plugins@https://registry.npmjs.org/@expo/config-plugins/-/config-plugins-58.0.11.tgz 0ms (cache hit)
+536 http cache @babel/runtime@https://registry.npmjs.org/@babel/runtime/-/runtime-7.29.10.tgz 0ms (cache hit)
+537 http cache @expo/fingerprint@https://registry.npmjs.org/@expo/fingerprint/-/fingerprint-0.21.7.tgz 0ms (cache hit)
+538 http cache react-native@https://registry.npmjs.org/react-native/-/react-native-0.88.1.tgz 0ms (cache hit)
+539 http cache pretty-format@https://registry.npmjs.org/pretty-format/-/pretty-format-29.7.0.tgz 0ms (cache hit)
+540 http cache hermes-compiler@https://registry.npmjs.org/hermes-compiler/-/hermes-compiler-260318099.0.5.tgz 0ms (cache hit)
+541 http cache react-devtools-core@https://registry.npmjs.org/react-devtools-core/-/react-devtools-core-6.1.5.tgz 0ms (cache hit)
+542 http cache react@https://registry.npmjs.org/react/-/react-19.3.0.tgz 0ms (cache hit)
+543 http cache expo-modules-cli@https://registry.npmjs.org/expo-modules-cli/-/expo-modules-cli-0.4.0.tgz 0ms (cache hit)
+544 http cache expo-status-bar@https://registry.npmjs.org/expo-status-bar/-/expo-status-bar-58.0.4.tgz 0ms (cache hit)
+545 http cache expo-modules-core@https://registry.npmjs.org/expo-modules-core/-/expo-modules-core-58.0.28.tgz 0ms (cache hit)
+546 http cache expo@https://registry.npmjs.org/expo/-/expo-58.0.21.tgz 0ms (cache hit)
+547 http cache glob@https://registry.npmjs.org/glob/-/glob-13.0.6.tgz 0ms (cache hit)
+548 http cache glob@https://registry.npmjs.org/glob/-/glob-13.0.6.tgz 0ms (cache hit)
+549 http cache csstype@https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz 0ms (cache hit)
+550 http cache expo-modules-autolinking@https://registry.npmjs.org/expo-modules-autolinking/-/expo-modules-autolinking-58.0.16.tgz 0ms (cache hit)
+551 http cache metro@https://registry.npmjs.org/metro/-/metro-0.87.1.tgz 0ms (cache hit)
+552 http cache typescript@https://registry.npmjs.org/typescript/-/typescript-6.0.3.tgz 0ms (cache hit)
+553 http cache @expo/json-file@https://registry.npmjs.org/@expo/json-file/-/json-file-11.2.1.tgz 0ms (cache hit)
+554 http cache glob@https://registry.npmjs.org/glob/-/glob-13.0.6.tgz 0ms (cache hit)
+555 http cache glob@https://registry.npmjs.org/glob/-/glob-13.0.6.tgz 0ms (cache hit)
+556 http cache react-refresh@https://registry.npmjs.org/react-refresh/-/react-refresh-0.14.2.tgz 0ms (cache hit)
+557 http cache ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-5.2.0.tgz 0ms (cache hit)
+558 http cache @expo/json-file@https://registry.npmjs.org/@expo/json-file/-/json-file-11.2.1.tgz 0ms (cache hit)
+559 http cache @expo/json-file@https://registry.npmjs.org/@expo/json-file/-/json-file-11.2.1.tgz 0ms (cache hit)
+560 http cache @expo/ws-tunnel@https://registry.npmjs.org/@expo/ws-tunnel/-/ws-tunnel-2.0.1.tgz 0ms (cache hit)
+561 http cache @expo/metro-config@https://registry.npmjs.org/@expo/metro-config/-/metro-config-58.0.19.tgz 0ms (cache hit)
+562 http cache @expo/dom-webview@https://registry.npmjs.org/@expo/dom-webview/-/dom-webview-58.0.2.tgz 0ms (cache hit)
+563 http cache @expo/log-box@https://registry.npmjs.org/@expo/log-box/-/log-box-58.0.13.tgz 0ms (cache hit)
+564 http cache @expo/devtools@https://registry.npmjs.org/@expo/devtools/-/devtools-58.0.2.tgz 0ms (cache hit)
+565 http cache flow-parser@https://registry.npmjs.org/flow-parser/-/flow-parser-0.327.0.tgz 0ms (cache hit)
+566 http cache mime-db@https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz 0ms (cache hit)
+567 http cache @expo/cli@https://registry.npmjs.org/@expo/cli/-/cli-58.1.17.tgz 0ms (cache hit)
+568 http cache flow-estree@https://registry.npmjs.org/flow-estree/-/flow-estree-0.327.0.tgz 0ms (cache hit)
+569 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.7.tgz 0ms (cache hit)
+570 http cache negotiator@https://registry.npmjs.org/negotiator/-/negotiator-0.6.3.tgz 0ms (cache hit)
+571 http cache ws@https://registry.npmjs.org/ws/-/ws-8.22.0.tgz 0ms (cache hit)
+572 http cache expo-constants@https://registry.npmjs.org/expo-constants/-/expo-constants-58.0.14.tgz 0ms (cache hit)
+573 http cache expo-font@https://registry.npmjs.org/expo-font/-/expo-font-58.0.11.tgz 0ms (cache hit)
+574 http cache mime-types@https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz 0ms (cache hit)
+575 http cache expo-asset@https://registry.npmjs.org/expo-asset/-/expo-asset-58.0.19.tgz 0ms (cache hit)
+576 http cache expo-modules-macros@https://registry.npmjs.org/expo-modules-macros/-/expo-modules-macros-0.27.1.tgz 0ms (cache hit)
+577 http cache @expo/modules-macros-win32-x64@https://registry.npmjs.org/@expo/modules-macros-win32-x64/-/modules-macros-win32-x64-0.27.1.tgz 0ms (cache hit)
+578 http cache expo-keep-awake@https://registry.npmjs.org/expo-keep-awake/-/expo-keep-awake-58.0.3.tgz 0ms (cache hit)
+579 http cache @expo/router-server@https://registry.npmjs.org/@expo/router-server/-/router-server-58.0.19.tgz 0ms (cache hit)
+580 http cache babel-preset-expo@https://registry.npmjs.org/babel-preset-expo/-/babel-preset-expo-58.0.22.tgz 0ms (cache hit)
+581 http cache expo-file-system@https://registry.npmjs.org/expo-file-system/-/expo-file-system-58.0.13.tgz 0ms (cache hit)
+582 silly tarball no local data for @expo/metro@https://registry.npmjs.org/@expo/metro/-/metro-58.0.0.tgz. Extracting by manifest.
+583 silly tarball no local data for @ungap/structured-clone@https://registry.npmjs.org/@ungap/structured-clone/-/structured-clone-1.4.0.tgz. Extracting by manifest.
+584 silly tarball no local data for @expo/local-build-cache-provider@https://registry.npmjs.org/@expo/local-build-cache-provider/-/local-build-cache-provider-58.0.9.tgz. Extracting by manifest.
+585 silly tarball no local data for @expo/config@https://registry.npmjs.org/@expo/config/-/config-58.0.9.tgz. Extracting by manifest.
+586 silly tarball no local data for @types/react@https://registry.npmjs.org/@types/react/-/react-19.3.0.tgz. Extracting by manifest.
+587 silly tarball no local data for @expo/config-plugins@https://registry.npmjs.org/@expo/config-plugins/-/config-plugins-58.0.11.tgz. Extracting by manifest.
+588 silly tarball no local data for @babel/runtime@https://registry.npmjs.org/@babel/runtime/-/runtime-7.29.10.tgz. Extracting by manifest.
+589 http cache accepts@https://registry.npmjs.org/accepts/-/accepts-1.3.8.tgz 0ms (cache hit)
+590 silly tarball no local data for @expo/fingerprint@https://registry.npmjs.org/@expo/fingerprint/-/fingerprint-0.21.7.tgz. Extracting by manifest.
+591 silly tarball no local data for react-native@https://registry.npmjs.org/react-native/-/react-native-0.88.1.tgz. Extracting by manifest.
+592 silly tarball no local data for pretty-format@https://registry.npmjs.org/pretty-format/-/pretty-format-29.7.0.tgz. Extracting by manifest.
+593 silly tarball no local data for hermes-compiler@https://registry.npmjs.org/hermes-compiler/-/hermes-compiler-260318099.0.5.tgz. Extracting by manifest.
+594 silly tarball no local data for react-devtools-core@https://registry.npmjs.org/react-devtools-core/-/react-devtools-core-6.1.5.tgz. Extracting by manifest.
+595 silly tarball no local data for react@https://registry.npmjs.org/react/-/react-19.3.0.tgz. Extracting by manifest.
+596 silly tarball no local data for expo-modules-cli@https://registry.npmjs.org/expo-modules-cli/-/expo-modules-cli-0.4.0.tgz. Extracting by manifest.
+597 silly tarball no local data for expo-status-bar@https://registry.npmjs.org/expo-status-bar/-/expo-status-bar-58.0.4.tgz. Extracting by manifest.
+598 silly tarball no local data for expo-modules-core@https://registry.npmjs.org/expo-modules-core/-/expo-modules-core-58.0.28.tgz. Extracting by manifest.
+599 silly tarball no local data for expo@https://registry.npmjs.org/expo/-/expo-58.0.21.tgz. Extracting by manifest.
+600 silly tarball no local data for glob@https://registry.npmjs.org/glob/-/glob-13.0.6.tgz. Extracting by manifest.
+601 silly tarball no local data for glob@https://registry.npmjs.org/glob/-/glob-13.0.6.tgz. Extracting by manifest.
+602 silly tarball no local data for csstype@https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz. Extracting by manifest.
+603 silly tarball no local data for expo-modules-autolinking@https://registry.npmjs.org/expo-modules-autolinking/-/expo-modules-autolinking-58.0.16.tgz. Extracting by manifest.
+604 silly tarball no local data for metro@https://registry.npmjs.org/metro/-/metro-0.87.1.tgz. Extracting by manifest.
+605 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-6.0.3.tgz. Extracting by manifest.
+606 silly tarball no local data for @expo/json-file@https://registry.npmjs.org/@expo/json-file/-/json-file-11.2.1.tgz. Extracting by manifest.
+607 silly tarball no local data for glob@https://registry.npmjs.org/glob/-/glob-13.0.6.tgz. Extracting by manifest.
+608 silly tarball no local data for glob@https://registry.npmjs.org/glob/-/glob-13.0.6.tgz. Extracting by manifest.
+609 silly tarball no local data for react-refresh@https://registry.npmjs.org/react-refresh/-/react-refresh-0.14.2.tgz. Extracting by manifest.
+610 silly tarball no local data for ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-5.2.0.tgz. Extracting by manifest.
+611 silly tarball no local data for @expo/json-file@https://registry.npmjs.org/@expo/json-file/-/json-file-11.2.1.tgz. Extracting by manifest.
+612 silly tarball no local data for @expo/json-file@https://registry.npmjs.org/@expo/json-file/-/json-file-11.2.1.tgz. Extracting by manifest.
+613 silly tarball no local data for @expo/ws-tunnel@https://registry.npmjs.org/@expo/ws-tunnel/-/ws-tunnel-2.0.1.tgz. Extracting by manifest.
+614 silly tarball no local data for @expo/metro-config@https://registry.npmjs.org/@expo/metro-config/-/metro-config-58.0.19.tgz. Extracting by manifest.
+615 silly tarball no local data for @expo/dom-webview@https://registry.npmjs.org/@expo/dom-webview/-/dom-webview-58.0.2.tgz. Extracting by manifest.
+616 silly tarball no local data for @expo/log-box@https://registry.npmjs.org/@expo/log-box/-/log-box-58.0.13.tgz. Extracting by manifest.
+617 silly tarball no local data for @expo/devtools@https://registry.npmjs.org/@expo/devtools/-/devtools-58.0.2.tgz. Extracting by manifest.
+618 silly tarball no local data for flow-parser@https://registry.npmjs.org/flow-parser/-/flow-parser-0.327.0.tgz. Extracting by manifest.
+619 silly tarball no local data for mime-db@https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz. Extracting by manifest.
+620 silly tarball no local data for @expo/cli@https://registry.npmjs.org/@expo/cli/-/cli-58.1.17.tgz. Extracting by manifest.
+621 silly tarball no local data for flow-estree@https://registry.npmjs.org/flow-estree/-/flow-estree-0.327.0.tgz. Extracting by manifest.
+622 silly tarball no local data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.7.tgz. Extracting by manifest.
+623 silly tarball no local data for negotiator@https://registry.npmjs.org/negotiator/-/negotiator-0.6.3.tgz. Extracting by manifest.
+624 silly tarball no local data for ws@https://registry.npmjs.org/ws/-/ws-8.22.0.tgz. Extracting by manifest.
+625 silly tarball no local data for expo-constants@https://registry.npmjs.org/expo-constants/-/expo-constants-58.0.14.tgz. Extracting by manifest.
+626 silly tarball no local data for expo-font@https://registry.npmjs.org/expo-font/-/expo-font-58.0.11.tgz. Extracting by manifest.
+627 silly tarball no local data for mime-types@https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz. Extracting by manifest.
+628 silly tarball no local data for expo-asset@https://registry.npmjs.org/expo-asset/-/expo-asset-58.0.19.tgz. Extracting by manifest.
+629 silly tarball no local data for expo-modules-macros@https://registry.npmjs.org/expo-modules-macros/-/expo-modules-macros-0.27.1.tgz. Extracting by manifest.
+630 silly tarball no local data for @expo/modules-macros-win32-x64@https://registry.npmjs.org/@expo/modules-macros-win32-x64/-/modules-macros-win32-x64-0.27.1.tgz. Extracting by manifest.
+631 silly tarball no local data for expo-keep-awake@https://registry.npmjs.org/expo-keep-awake/-/expo-keep-awake-58.0.3.tgz. Extracting by manifest.
+632 silly tarball no local data for @expo/router-server@https://registry.npmjs.org/@expo/router-server/-/router-server-58.0.19.tgz. Extracting by manifest.
+633 silly tarball no local data for babel-preset-expo@https://registry.npmjs.org/babel-preset-expo/-/babel-preset-expo-58.0.22.tgz. Extracting by manifest.
+634 silly tarball no local data for expo-file-system@https://registry.npmjs.org/expo-file-system/-/expo-file-system-58.0.13.tgz. Extracting by manifest.
+635 silly tarball no local data for accepts@https://registry.npmjs.org/accepts/-/accepts-1.3.8.tgz. Extracting by manifest.
+636 http fetch GET 200 https://registry.npmjs.org/loose-envify 53ms (cache miss)
+637 silly packumentCache corgi:https://registry.npmjs.org/loose-envify set size:undefined disposed:false
+638 http fetch GET 200 https://registry.npmjs.org/sandbox-cli-detector 56ms (cache miss)
+639 silly packumentCache corgi:https://registry.npmjs.org/sandbox-cli-detector set size:undefined disposed:false
+640 http fetch GET 200 https://registry.npmjs.org/update-browserslist-db 100ms (cache miss)
+641 silly packumentCache corgi:https://registry.npmjs.org/update-browserslist-db set size:undefined disposed:false
+642 http fetch GET 200 https://registry.npmjs.org/which 110ms (cache miss)
+643 silly packumentCache corgi:https://registry.npmjs.org/which set size:undefined disposed:false
+644 http fetch GET 200 https://registry.npmjs.org/agent-cli-detector 148ms (cache miss)
+645 silly packumentCache corgi:https://registry.npmjs.org/agent-cli-detector set size:undefined disposed:false
+646 http fetch GET 200 https://registry.npmjs.org/jsesc 167ms (cache miss)
+647 silly packumentCache corgi:https://registry.npmjs.org/jsesc set size:undefined disposed:false
+648 http fetch GET 200 https://registry.npmjs.org/@expo%2fxcpretty 186ms (cache miss)
+649 silly packumentCache corgi:https://registry.npmjs.org/@expo%2fxcpretty set size:undefined disposed:false
+650 http fetch GET 200 https://registry.npmjs.org/json5 201ms (cache miss)
+651 silly packumentCache corgi:https://registry.npmjs.org/json5 set size:undefined disposed:false
+652 http fetch GET 200 https://registry.npmjs.org/is-docker 211ms (cache miss)
+653 silly packumentCache corgi:https://registry.npmjs.org/is-docker set size:undefined disposed:false
+654 http fetch GET 200 https://registry.npmjs.org/js-yaml 219ms (cache miss)
+655 silly packumentCache corgi:https://registry.npmjs.org/js-yaml set size:undefined disposed:false
+656 http fetch GET 200 https://registry.npmjs.org/regjsparser 249ms (cache miss)
+657 silly packumentCache corgi:https://registry.npmjs.org/regjsparser set size:undefined disposed:false
+658 http fetch GET 200 https://registry.npmjs.org/resolve 275ms (cache miss)
+659 silly packumentCache corgi:https://registry.npmjs.org/resolve set size:undefined disposed:false
+660 http fetch GET 200 https://registry.npmjs.org/semver 281ms (cache miss)
+661 silly packumentCache corgi:https://registry.npmjs.org/semver set size:undefined disposed:false
+662 http fetch GET 200 https://registry.npmjs.org/@ungap/structured-clone/-/structured-clone-1.4.0.tgz 286ms (cache miss)
+663 http fetch GET 200 https://registry.npmjs.org/@expo/local-build-cache-provider/-/local-build-cache-provider-58.0.9.tgz 296ms (cache miss)
+664 http fetch GET 200 https://registry.npmjs.org/lan-network 375ms (cache miss)
+665 silly packumentCache corgi:https://registry.npmjs.org/lan-network set size:undefined disposed:false
+666 http fetch GET 200 https://registry.npmjs.org/metro-symbolicate 379ms (cache miss)
+667 silly packumentCache corgi:https://registry.npmjs.org/metro-symbolicate set size:undefined disposed:false
+668 http fetch GET 200 https://registry.npmjs.org/baseline-browser-mapping 418ms (cache miss)
+669 silly packumentCache corgi:https://registry.npmjs.org/baseline-browser-mapping set size:undefined disposed:false
+670 http fetch GET 200 https://registry.npmjs.org/mime 450ms (cache miss)
+671 silly packumentCache corgi:https://registry.npmjs.org/mime set size:undefined disposed:false
+672 http fetch GET 200 https://registry.npmjs.org/@expo/config/-/config-58.0.9.tgz 498ms (cache miss)
+673 http fetch GET 200 https://registry.npmjs.org/pretty-format/-/pretty-format-29.7.0.tgz 530ms (cache miss)
+674 http fetch GET 200 https://registry.npmjs.org/acorn 587ms (cache miss)
+675 silly packumentCache corgi:https://registry.npmjs.org/acorn set size:undefined disposed:false
+676 http fetch GET 200 https://registry.npmjs.org/2g 596ms (cache miss)
+677 silly packumentCache corgi:https://registry.npmjs.org/2g set size:undefined disposed:false
+678 http fetch GET 200 https://registry.npmjs.org/react/-/react-19.3.0.tgz 752ms (cache miss)
+679 http fetch GET 200 https://registry.npmjs.org/@types/react/-/react-19.3.0.tgz 796ms (cache miss)
+680 http fetch GET 200 https://registry.npmjs.org/terser 819ms (cache miss)
+681 silly packumentCache corgi:https://registry.npmjs.org/terser set size:undefined disposed:false
+682 http fetch GET 200 https://registry.npmjs.org/@babel%2fparser 926ms (cache miss)
+683 silly packumentCache corgi:https://registry.npmjs.org/@babel%2fparser set size:undefined disposed:false
+684 http fetch GET 200 https://registry.npmjs.org/expo-modules-cli/-/expo-modules-cli-0.4.0.tgz 910ms (cache miss)
+685 http fetch GET 200 https://registry.npmjs.org/expo-status-bar/-/expo-status-bar-58.0.4.tgz 912ms (cache miss)
+686 http fetch GET 200 https://registry.npmjs.org/@expo/metro/-/metro-58.0.0.tgz 939ms (cache miss)
+687 http fetch GET 200 https://registry.npmjs.org/@expo/fingerprint/-/fingerprint-0.21.7.tgz 987ms (cache miss)
+688 http fetch GET 200 https://registry.npmjs.org/browserslist 1077ms (cache miss)
+689 silly packumentCache corgi:https://registry.npmjs.org/browserslist set size:undefined disposed:false
+690 http fetch GET 200 https://registry.npmjs.org/@expo/json-file/-/json-file-11.2.1.tgz 1148ms (cache miss)
+691 http fetch GET 200 https://registry.npmjs.org/nanoid 1204ms (cache miss)
+692 silly packumentCache corgi:https://registry.npmjs.org/nanoid set size:undefined disposed:false
+693 http fetch GET 200 https://registry.npmjs.org/@babel/runtime/-/runtime-7.29.10.tgz 1325ms (cache miss)
+694 http fetch GET 200 https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz 1877ms (cache miss)
+695 http fetch GET 200 https://registry.npmjs.org/ansi-styles/-/ansi-styles-5.2.0.tgz 1979ms (cache miss)
+696 http fetch GET 200 https://registry.npmjs.org/react-refresh/-/react-refresh-0.14.2.tgz 2116ms (cache miss)
+697 http fetch GET 200 https://registry.npmjs.org/@expo/json-file/-/json-file-11.2.1.tgz 2120ms (cache miss)
+698 http fetch GET 200 https://registry.npmjs.org/@expo/config-plugins/-/config-plugins-58.0.11.tgz 2173ms (cache miss)
+699 http fetch GET 200 https://registry.npmjs.org/@expo/json-file/-/json-file-11.2.1.tgz 2208ms (cache miss)
+700 http fetch GET 200 https://registry.npmjs.org/@expo/ws-tunnel/-/ws-tunnel-2.0.1.tgz 2273ms (cache miss)
+701 http fetch GET 200 https://registry.npmjs.org/@expo/dom-webview/-/dom-webview-58.0.2.tgz 2454ms (cache miss)
+702 http fetch GET 200 https://registry.npmjs.org/@expo/devtools/-/devtools-58.0.2.tgz 2675ms (cache miss)
+703 http fetch GET 200 https://registry.npmjs.org/metro/-/metro-0.87.1.tgz 2717ms (cache miss)
+704 http fetch GET 200 https://registry.npmjs.org/expo-modules-autolinking/-/expo-modules-autolinking-58.0.16.tgz 2750ms (cache miss)
+705 http fetch GET 200 https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz 2869ms (cache miss)
+706 http fetch GET 200 https://registry.npmjs.org/flow-estree/-/flow-estree-0.327.0.tgz 3364ms (cache miss)
+707 http fetch GET 200 https://registry.npmjs.org/glob/-/glob-13.0.6.tgz 3491ms (cache miss)
+708 http fetch GET 200 https://registry.npmjs.org/negotiator/-/negotiator-0.6.3.tgz 3538ms (cache miss)
+709 http fetch GET 200 https://registry.npmjs.org/picomatch/-/picomatch-4.0.7.tgz 3555ms (cache miss)
+710 http fetch GET 200 https://registry.npmjs.org/glob/-/glob-13.0.6.tgz 3580ms (cache miss)
+711 http fetch GET 200 https://registry.npmjs.org/expo-constants/-/expo-constants-58.0.14.tgz 3823ms (cache miss)
+712 http fetch GET 200 https://registry.npmjs.org/ws/-/ws-8.22.0.tgz 3828ms (cache miss)
+713 http fetch GET 200 https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz 3874ms (cache miss)
+714 http fetch GET 200 https://registry.npmjs.org/glob/-/glob-13.0.6.tgz 3897ms (cache miss)
+715 http fetch GET 200 https://registry.npmjs.org/glob/-/glob-13.0.6.tgz 3940ms (cache miss)
+716 http fetch GET 200 https://registry.npmjs.org/expo-keep-awake/-/expo-keep-awake-58.0.3.tgz 4247ms (cache miss)
+717 http fetch GET 200 https://registry.npmjs.org/expo-asset/-/expo-asset-58.0.19.tgz 4542ms (cache miss)
+718 http fetch GET 200 https://registry.npmjs.org/@expo/router-server/-/router-server-58.0.19.tgz 4872ms (cache miss)
+719 http fetch GET 200 https://registry.npmjs.org/@expo/metro-config/-/metro-config-58.0.19.tgz 5091ms (cache miss)
+720 http fetch GET 200 https://registry.npmjs.org/accepts/-/accepts-1.3.8.tgz 5108ms (cache miss)
+721 http fetch GET 200 https://registry.npmjs.org/@expo/log-box/-/log-box-58.0.13.tgz 5148ms (cache miss)
+722 http fetch GET 200 https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz 5127ms (cache miss)
+723 http fetch GET 200 https://registry.npmjs.org/babel-preset-expo/-/babel-preset-expo-58.0.22.tgz 5189ms (cache miss)
+724 http fetch GET 200 https://registry.npmjs.org/sandbox-cli-detector/-/sandbox-cli-detector-0.2.0.tgz 5181ms (cache miss)
+725 http fetch GET 200 https://registry.npmjs.org/which/-/which-2.0.2.tgz 5140ms (cache miss)
+726 http fetch GET 200 https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.3.4.tgz 5162ms (cache miss)
+727 http fetch GET 200 https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz 5184ms (cache miss)
+728 http fetch GET 200 https://registry.npmjs.org/agent-cli-detector/-/agent-cli-detector-0.1.7.tgz 5217ms (cache miss)
+729 http fetch GET 200 https://registry.npmjs.org/is-docker/-/is-docker-2.2.1.tgz 5190ms (cache miss)
+730 http fetch GET 200 https://registry.npmjs.org/json5/-/json5-2.2.3.tgz 5562ms (cache miss)
+731 http fetch GET 200 https://registry.npmjs.org/@expo/xcpretty/-/xcpretty-4.4.7.tgz 5697ms (cache miss)
+732 http fetch GET 200 https://registry.npmjs.org/regjsparser/-/regjsparser-0.13.4.tgz 5685ms (cache miss)
+733 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-7.8.5.tgz 5902ms (cache miss)
+734 http fetch GET 200 https://registry.npmjs.org/expo/-/expo-58.0.21.tgz 6179ms (cache miss)
+735 http fetch GET 200 https://registry.npmjs.org/flow-parser/-/flow-parser-0.327.0.tgz 6220ms (cache miss)
+736 http fetch GET 200 https://registry.npmjs.org/lan-network/-/lan-network-0.2.1.tgz 5883ms (cache miss)
+737 http fetch GET 200 https://registry.npmjs.org/metro-symbolicate/-/metro-symbolicate-0.87.1.tgz 6046ms (cache miss)
+738 http fetch GET 200 https://registry.npmjs.org/mime/-/mime-1.6.0.tgz 5992ms (cache miss)
+739 http fetch GET 200 https://registry.npmjs.org/resolve/-/resolve-1.22.13.tgz 6177ms (cache miss)
+740 http fetch GET 200 https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.11.34.tgz 6169ms (cache miss)
+741 http fetch GET 200 https://registry.npmjs.org/js-yaml/-/js-yaml-4.3.2.tgz 6979ms (cache miss)
+742 http fetch GET 200 https://registry.npmjs.org/browserslist/-/browserslist-4.29.5.tgz 6332ms (cache miss)
+743 http fetch GET 200 https://registry.npmjs.org/nanoid/-/nanoid-3.3.20.tgz 6276ms (cache miss)
+744 http fetch GET 200 https://registry.npmjs.org/acorn/-/acorn-8.19.0.tgz 6906ms (cache miss)
+745 http fetch GET 200 https://registry.npmjs.org/2g/-/2g-1.0.1.tgz 7093ms (cache miss)
+746 http fetch GET 200 https://registry.npmjs.org/terser/-/terser-5.51.2.tgz 8473ms (cache miss)
+747 http fetch GET 200 https://registry.npmjs.org/@babel/parser/-/parser-7.29.12.tgz 9227ms (cache miss)
+748 http fetch GET 200 https://registry.npmjs.org/@expo/cli/-/cli-58.1.17.tgz 10553ms (cache miss)
+749 http fetch GET 200 https://registry.npmjs.org/expo-font/-/expo-font-58.0.11.tgz 18745ms (cache miss)
+750 http fetch GET 200 https://registry.npmjs.org/react-devtools-core/-/react-devtools-core-6.1.5.tgz 22356ms (cache miss)
+751 http fetch GET 200 https://registry.npmjs.org/react-native/-/react-native-0.88.1.tgz 23307ms (cache miss)
+752 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-6.0.3.tgz 24376ms (cache miss)
+753 http fetch GET 200 https://registry.npmjs.org/@expo/modules-macros-win32-x64/-/modules-macros-win32-x64-0.27.1.tgz 28927ms (cache miss)
+754 http fetch GET 200 https://registry.npmjs.org/expo-modules-macros/-/expo-modules-macros-0.27.1.tgz 30607ms (cache miss)

@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Simplify Money Track",
+    "slug": "simplify-money-track",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "androidStatusBar": {
+      "backgroundColor": "#0A2E46",
+      "barStyle": "light-content"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "in.simplifymoney.trackassignment",
+      "adaptiveIcon": {
+        "backgroundColor": "#0A2E46",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-sqlite",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "5e696c9c-6e0b-47c0-ab60-2626262a08ba"
+      }
+    }
+  }
+}
